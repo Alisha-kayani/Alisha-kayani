@@ -1,16 +1,22 @@
-### 👋 About Me
+### Hi there, I'm Alisha Kayani! 👋
 
-I'm Alisha Kayani, an AI and Software Engineer specializing in full-stack applications. I build **AI-powered solutions** using frameworks like **OpenAI Agents SDK**, **LangChain**, and **CrewAI**. My passion is creating robust web applications with **Next.js** and **FastAPI**, and contributing to open-source projects.
+I am an **AI and Software Engineer** passionate about building **intelligent, full-stack applications**. I specialize in creating **AI-powered solutions** that merge modern web frameworks with autonomous agent capabilities.
 
------
+- 🎓 **Education:** Software Engineering Graduate (Virtual University) & Cloud Native GenAI Scholar (PIAIC).
+- 💡 **Passion:** Contributing to open-source AI agent frameworks and building automation tools.
 
-### 💻 My Tech Stack
+---
 
-  * **AI Frameworks**: OpenAI Agents SDK, LangChain, CrewAI, Large Language Models (LLMs)
-  * **Frontend**: Next.js, React.js, TypeScript
-  * **Backend**: Python, FastAPI, PostgreSQL, MongoDB, Prisma
+### 🛠️ Languages and Tools
 
------
+* **AI Agentic Frameworks:** `OpenAI Agents SDK`, `LangChain`, `CrewAI`
+* **Frontend:** `Next.js`, `React`, `TypeScript`
+* **Backend:** `Python`, `FastAPI`, `PostgreSQL`, `MongoDB`
+* **Auth & Security:** `NextAuth`, `JWT`, `Casbin` (RBAC)
+
+---
+
+Let's connect and build the future of AI! 🚀
 
 ### 📫 Let's Connect
 
