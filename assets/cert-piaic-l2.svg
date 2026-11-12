@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+<defs>
+<linearGradient id="gcpiaic-l2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#14B8A6"/><stop offset=".55" stop-color="#0EA5E9"/><stop offset="1" stop-color="#F59E0B"/></linearGradient>
+<linearGradient id="bgcpiaic-l2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#121C31"/><stop offset="1" stop-color="#0B1220"/></linearGradient>
+<linearGradient id="bdcpiaic-l2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14B8A6" stop-opacity=".55"/><stop offset=".5" stop-color="#22304D"/><stop offset="1" stop-color="#F59E0B" stop-opacity=".45"/></linearGradient>
+<radialGradient id="gacpiaic-l2" cx=".12" cy=".05" r=".55"><stop offset="0" stop-color="#14B8A6" stop-opacity=".22"/><stop offset="1" stop-color="#14B8A6" stop-opacity="0"/></radialGradient>
+<radialGradient id="gbcpiaic-l2" cx=".95" cy="1" r=".6"><stop offset="0" stop-color="#F59E0B" stop-opacity=".14"/><stop offset="1" stop-color="#F59E0B" stop-opacity="0"/></radialGradient>
+<pattern id="dotcpiaic-l2" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#FFFFFF" fill-opacity=".05"/></pattern>
+<clipPath id="clcpiaic-l2"><rect width="800" height="200" rx="22"/></clipPath>
+<style>
+.t{font-family:'Segoe UI', -apple-system, 'Helvetica Neue', Ubuntu, Arial, sans-serif} .m{font-family:'Cascadia Code', 'Fira Code', Consolas, monospace}
+@keyframes up{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.a{animation:up .8s cubic-bezier(.2,.7,.2,1) both}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}} .p{animation:pulse 2.2s ease-in-out infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(-40px,18px)}} .d{animation:drift 12s ease-in-out infinite}
+</style>
+</defs>
+<g clip-path="url(#clcpiaic-l2)">
+<rect width="800" height="200" fill="url(#bgcpiaic-l2)"/>
+
+<rect width="800" height="200" fill="url(#gacpiaic-l2)" class="d"/><rect width="800" height="200" fill="url(#gbcpiaic-l2)"/>
+</g>
+<rect x="1.5" y="1.5" width="797" height="197" rx="22" fill="none" stroke="url(#bdcpiaic-l2)" stroke-width="2"/>
+<g class="a"><circle cx="84" cy="100.0" r="44" fill="#14B8A6" fill-opacity=".14" stroke="#14B8A6" stroke-opacity=".6" stroke-width="2"/><text x="84" y="111.0" text-anchor="middle" class="t" font-size="30" font-weight="800" fill="#14B8A6">L2</text><text x="156" y="78" text-anchor="start" class="t" font-size="25" font-weight="800" fill="#F1F5F9">PIAIC Agentic AI Professional — Level 2</text><text x="156" y="118" class="t" font-size="19" fill="#8B9BB4">Presidential Initiative for AI &amp; Computing</text><rect x="702.0" y="30" width="62" height="32" rx="16.0" fill="#14B8A6" fill-opacity="0.1" stroke="#14B8A6" stroke-opacity=".40"/><text x="717.0" y="51.6" class="t" font-size="16" font-weight="600" fill="#14B8A6">2026</text><text x="764" y="170" text-anchor="end" class="t" font-size="17" font-weight="700" fill="#14B8A6">View certificate →</text></g></svg>

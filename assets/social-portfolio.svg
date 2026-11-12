@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="230" height="60" viewBox="0 0 230 60">
+<defs>
+<linearGradient id="gsportfolio" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#14B8A6"/><stop offset=".55" stop-color="#0EA5E9"/><stop offset="1" stop-color="#F59E0B"/></linearGradient>
+<linearGradient id="bgsportfolio" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#121C31"/><stop offset="1" stop-color="#0B1220"/></linearGradient>
+<linearGradient id="bdsportfolio" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14B8A6" stop-opacity=".55"/><stop offset=".5" stop-color="#22304D"/><stop offset="1" stop-color="#F59E0B" stop-opacity=".45"/></linearGradient>
+<radialGradient id="gasportfolio" cx=".12" cy=".05" r=".55"><stop offset="0" stop-color="#14B8A6" stop-opacity=".22"/><stop offset="1" stop-color="#14B8A6" stop-opacity="0"/></radialGradient>
+<radialGradient id="gbsportfolio" cx=".95" cy="1" r=".6"><stop offset="0" stop-color="#F59E0B" stop-opacity=".14"/><stop offset="1" stop-color="#F59E0B" stop-opacity="0"/></radialGradient>
+<pattern id="dotsportfolio" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#FFFFFF" fill-opacity=".05"/></pattern>
+<clipPath id="clsportfolio"><rect width="230" height="60" rx="30"/></clipPath>
+<style>
+.t{font-family:'Segoe UI', -apple-system, 'Helvetica Neue', Ubuntu, Arial, sans-serif} .m{font-family:'Cascadia Code', 'Fira Code', Consolas, monospace}
+@keyframes up{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.a{animation:up .8s cubic-bezier(.2,.7,.2,1) both}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}} .p{animation:pulse 2.2s ease-in-out infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(-40px,18px)}} .d{animation:drift 12s ease-in-out infinite}
+</style>
+</defs>
+<g clip-path="url(#clsportfolio)">
+<rect width="230" height="60" fill="url(#bgsportfolio)"/>
+
+
+</g>
+<rect x="1.5" y="1.5" width="227" height="57" rx="30" fill="none" stroke="url(#bdsportfolio)" stroke-width="2"/>
+<circle cx="36" cy="30" r="18" fill="#E2E8F0" fill-opacity=".16"/><g transform="translate(26,20) scale(.8333)"><path d="M24 22.525H0l12-21.05 12 21.05z" fill="#E2E8F0"/></g><text x="66" y="37" class="t" font-size="19" font-weight="700" fill="#F1F5F9">Portfolio</text><text x="206" y="37" text-anchor="end" class="t" font-size="18" fill="#8B9BB4">↗</text></svg>

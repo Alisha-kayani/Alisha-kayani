@@ -1,5 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="170" viewBox="0 0 1600 170"><defs>
-<linearGradient id="gpostsiva-banner" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#14B8A6"/><stop offset=".55" stop-color="#0EA5E9"/><stop offset="1" stop-color="#F59E0B"/></linearGradient>
-<linearGradient id="bgpostsiva-banner" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111B2E"/><stop offset="1" stop-color="#0B1220"/></linearGradient>
-<style>.t{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif} @keyframes f{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}} .a{animation:f .7s ease-out both}</style>
-</defs><rect x="1" y="1" width="1598" height="168" rx="24" fill="url(#bgpostsiva-banner)" stroke="#1E2A44" stroke-width="2"/><rect x="1" y="1" width="10" height="168" rx="5" fill="url(#gpostsiva-banner)"/><g class="a"><text x="48" y="52" class="t" font-size="18" font-weight="700" letter-spacing="3" fill="#14B8A6">EXPERIENCE · OCT 2025 – PRESENT</text><text x="48" y="102" class="t" font-size="42" font-weight="800" fill="#E6EDF7">Postsiva — Unified Social OS</text><text x="48" y="142" class="t" font-size="22" fill="#94A3B8">Agentic AI Developer &amp; Social Growth Lead · FastAPI core for automation, scheduling and analytics</text><rect x="1349" y="70" rx="15" width="117" height="30" fill="#F59E0B" fill-opacity=".12" stroke="#F59E0B" stroke-opacity=".45"/><text x="1407.5" y="91" text-anchor="middle" class="t" font-size="18" font-weight="600" fill="#F59E0B">Full-time</text><rect x="1476" y="70" rx="15" width="76" height="30" fill="#F59E0B" fill-opacity=".12" stroke="#F59E0B" stroke-opacity=".45"/><text x="1514.0" y="91" text-anchor="middle" class="t" font-size="18" font-weight="600" fill="#F59E0B">1 yr+</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="200" viewBox="0 0 1600 200">
+<defs>
+<linearGradient id="gpb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#14B8A6"/><stop offset=".55" stop-color="#0EA5E9"/><stop offset="1" stop-color="#F59E0B"/></linearGradient>
+<linearGradient id="bgpb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#121C31"/><stop offset="1" stop-color="#0B1220"/></linearGradient>
+<linearGradient id="bdpb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14B8A6" stop-opacity=".55"/><stop offset=".5" stop-color="#22304D"/><stop offset="1" stop-color="#F59E0B" stop-opacity=".45"/></linearGradient>
+<radialGradient id="gapb" cx=".12" cy=".05" r=".55"><stop offset="0" stop-color="#14B8A6" stop-opacity=".22"/><stop offset="1" stop-color="#14B8A6" stop-opacity="0"/></radialGradient>
+<radialGradient id="gbpb" cx=".95" cy="1" r=".6"><stop offset="0" stop-color="#F59E0B" stop-opacity=".14"/><stop offset="1" stop-color="#F59E0B" stop-opacity="0"/></radialGradient>
+<pattern id="dotpb" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#FFFFFF" fill-opacity=".05"/></pattern>
+<clipPath id="clpb"><rect width="1600" height="200" rx="28"/></clipPath>
+<style>
+.t{font-family:'Segoe UI', -apple-system, 'Helvetica Neue', Ubuntu, Arial, sans-serif} .m{font-family:'Cascadia Code', 'Fira Code', Consolas, monospace}
+@keyframes up{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.a{animation:up .8s cubic-bezier(.2,.7,.2,1) both}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}} .p{animation:pulse 2.2s ease-in-out infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(-40px,18px)}} .d{animation:drift 12s ease-in-out infinite}
+</style>
+</defs>
+<g clip-path="url(#clpb)">
+<rect width="1600" height="200" fill="url(#bgpb)"/>
+<rect width="1600" height="200" fill="url(#dotpb)"/>
+<rect width="1600" height="200" fill="url(#gapb)" class="d"/><rect width="1600" height="200" fill="url(#gbpb)"/>
+</g>
+<rect x="1.5" y="1.5" width="1597" height="197" rx="28" fill="none" stroke="url(#bdpb)" stroke-width="2"/>
+<rect x="0" y="0" width="10" height="200" rx="5" fill="url(#gpb)"/><g class="a"><text x="60" y="62" class="m" font-size="20" font-weight="700" letter-spacing="3" fill="#14B8A6">EXPERIENCE · OCT 2025 – PRESENT</text>
+<text x="58" y="122" class="t" font-size="50" font-weight="800" letter-spacing="-1" fill="#F1F5F9">Postsiva <tspan fill="#8B9BB4" font-weight="400">—</tspan> <tspan fill="url(#gpb)">Unified Social OS</tspan></text>
+<text x="60" y="164" class="t" font-size="23" fill="#CBD5E1">Agentic AI Developer &amp; Social Growth Lead · FastAPI core for automation, scheduling and analytics</text></g><g class="a" style="animation-delay:.2s"><rect x="1240" y="76" width="140" height="36" rx="18.0" fill="#14B8A6" fill-opacity="0.1" stroke="#14B8A6" stroke-opacity=".40"/><circle cx="1257" cy="94.0" r="5" fill="#22C55E" class="p"/><text x="1273" y="101.0" class="t" font-size="20" font-weight="600" fill="#14B8A6">Full-time</text><rect x="1390" y="76" width="76" height="36" rx="18.0" fill="#F59E0B" fill-opacity="0.1" stroke="#F59E0B" stroke-opacity=".40"/><text x="1405" y="101.0" class="t" font-size="20" font-weight="600" fill="#F59E0B">1 yr+</text></g></svg>

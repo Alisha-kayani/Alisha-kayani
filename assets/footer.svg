@@ -1,8 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="160" viewBox="0 0 1600 160">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#14B8A6"/><stop offset=".55" stop-color="#0EA5E9"/><stop offset="1" stop-color="#F59E0B"/></linearGradient>
-<style>@keyframes f{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}} .a{animation:f .9s ease-out both}
-@keyframes s{0%,100%{transform:translateX(0)}50%{transform:translateX(-30px)}} .w{animation:s 8s ease-in-out infinite}</style></defs>
-<path d="M0 160 V90 C280 30 520 130 800 90 C1080 50 1320 140 1600 80 V160 Z" fill="url(#g)" fill-opacity=".45" class="w"/>
-<path d="M0 160 V60 C300 0 550 110 800 60 C1050 10 1300 120 1600 50 V160 Z" fill="none"/>
-<path d="M0 160 V60 C300 0 550 110 800 60 C1050 10 1300 120 1600 50 V160 Z" fill="url(#g)" fill-opacity=".9"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="330" viewBox="0 0 1600 330">
+<defs>
+<linearGradient id="gft" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#14B8A6"/><stop offset=".55" stop-color="#0EA5E9"/><stop offset="1" stop-color="#F59E0B"/></linearGradient>
+<linearGradient id="bgft" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#121C31"/><stop offset="1" stop-color="#0B1220"/></linearGradient>
+<linearGradient id="bdft" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14B8A6" stop-opacity=".55"/><stop offset=".5" stop-color="#22304D"/><stop offset="1" stop-color="#F59E0B" stop-opacity=".45"/></linearGradient>
+<radialGradient id="gaft" cx=".12" cy=".05" r=".55"><stop offset="0" stop-color="#14B8A6" stop-opacity=".22"/><stop offset="1" stop-color="#14B8A6" stop-opacity="0"/></radialGradient>
+<radialGradient id="gbft" cx=".95" cy="1" r=".6"><stop offset="0" stop-color="#F59E0B" stop-opacity=".14"/><stop offset="1" stop-color="#F59E0B" stop-opacity="0"/></radialGradient>
+<pattern id="dotft" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#FFFFFF" fill-opacity=".05"/></pattern>
+<clipPath id="clft"><rect width="1600" height="330" rx="32"/></clipPath>
+<style>
+.t{font-family:'Segoe UI', -apple-system, 'Helvetica Neue', Ubuntu, Arial, sans-serif} .m{font-family:'Cascadia Code', 'Fira Code', Consolas, monospace}
+@keyframes up{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.a{animation:up .8s cubic-bezier(.2,.7,.2,1) both}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}} .p{animation:pulse 2.2s ease-in-out infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(-40px,18px)}} .d{animation:drift 12s ease-in-out infinite}
+</style>
+</defs>
+<g clip-path="url(#clft)">
+<rect width="1600" height="330" fill="url(#bgft)"/>
+<rect width="1600" height="330" fill="url(#dotft)"/>
+<rect width="1600" height="330" fill="url(#gaft)" class="d"/><rect width="1600" height="330" fill="url(#gbft)"/>
+</g>
+<rect x="1.5" y="1.5" width="1597" height="327" rx="32" fill="none" stroke="url(#bdft)" stroke-width="2"/>
+<g class="a"><text x="800" y="100" text-anchor="middle" class="m" font-size="20" font-weight="700" letter-spacing="4" fill="#14B8A6">LET'S WORK TOGETHER</text>
+<text x="800" y="166" text-anchor="middle" class="t" font-size="58" font-weight="800" letter-spacing="-1" fill="#F1F5F9">Let's build something that <tspan fill="url(#gft)">ships.</tspan></text>
+<text x="800" y="214" text-anchor="middle" class="t" font-size="24" fill="#CBD5E1">Open to freelance backend &amp; AI-agent work, collaborations and remote roles.</text></g><g class="a" style="animation-delay:.2s"><rect x="616" y="244" width="368" height="54" rx="27" fill="url(#gft)"/><text x="800" y="279" text-anchor="middle" class="t" font-size="22" font-weight="800" fill="#06111F">alishakayani.ai@gmail.com  →</text></g></svg>

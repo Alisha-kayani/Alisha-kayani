@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="230" height="60" viewBox="0 0 230 60">
+<defs>
+<linearGradient id="gsbluesky" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#14B8A6"/><stop offset=".55" stop-color="#0EA5E9"/><stop offset="1" stop-color="#F59E0B"/></linearGradient>
+<linearGradient id="bgsbluesky" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#121C31"/><stop offset="1" stop-color="#0B1220"/></linearGradient>
+<linearGradient id="bdsbluesky" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14B8A6" stop-opacity=".55"/><stop offset=".5" stop-color="#22304D"/><stop offset="1" stop-color="#F59E0B" stop-opacity=".45"/></linearGradient>
+<radialGradient id="gasbluesky" cx=".12" cy=".05" r=".55"><stop offset="0" stop-color="#14B8A6" stop-opacity=".22"/><stop offset="1" stop-color="#14B8A6" stop-opacity="0"/></radialGradient>
+<radialGradient id="gbsbluesky" cx=".95" cy="1" r=".6"><stop offset="0" stop-color="#F59E0B" stop-opacity=".14"/><stop offset="1" stop-color="#F59E0B" stop-opacity="0"/></radialGradient>
+<pattern id="dotsbluesky" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#FFFFFF" fill-opacity=".05"/></pattern>
+<clipPath id="clsbluesky"><rect width="230" height="60" rx="30"/></clipPath>
+<style>
+.t{font-family:'Segoe UI', -apple-system, 'Helvetica Neue', Ubuntu, Arial, sans-serif} .m{font-family:'Cascadia Code', 'Fira Code', Consolas, monospace}
+@keyframes up{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.a{animation:up .8s cubic-bezier(.2,.7,.2,1) both}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}} .p{animation:pulse 2.2s ease-in-out infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(-40px,18px)}} .d{animation:drift 12s ease-in-out infinite}
+</style>
+</defs>
+<g clip-path="url(#clsbluesky)">
+<rect width="230" height="60" fill="url(#bgsbluesky)"/>
+
+
+</g>
+<rect x="1.5" y="1.5" width="227" height="57" rx="30" fill="none" stroke="url(#bdsbluesky)" stroke-width="2"/>
+<circle cx="36" cy="30" r="18" fill="#1185FE" fill-opacity=".16"/><g transform="translate(26,20) scale(.8333)"><path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z" fill="#1185FE"/></g><text x="66" y="37" class="t" font-size="19" font-weight="700" fill="#F1F5F9">Bluesky</text><text x="206" y="37" text-anchor="end" class="t" font-size="18" fill="#8B9BB4">↗</text></svg>
