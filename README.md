@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:14B8A6,55:0EA5E9,100:F59E0B&height=210&section=header&text=Alisha%20Kayani&fontSize=56&fontColor=FFFFFF&fontAlignY=36&desc=Agentic%20AI%20Developer%20%E2%80%A2%20Backend%20Engineer%20%E2%80%A2%20Python%20%26%20FastAPI&descSize=18&descAlignY=58&animation=fadeIn" width="100%"/>
+<img src="./assets/header.svg" width="100%" alt="Alisha Kayani — Agentic AI Developer, Backend Engineer, Python &amp; FastAPI"/>
 
 <a href="https://alisha-kayaniai.vercel.app/"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=800&color=2DD4BF&center=true&vCenter=true&width=640&lines=Building+autonomous+AI+agents+that+ship;FastAPI+backends+for+real+traffic;RAG+pipelines+%26+LLM+applications;WhatsApp+%26+social+media+automation;Agentic+AI+Developer+%40+Postsiva" alt="Typing SVG"/></a>
 
@@ -162,6 +162,6 @@ I'm a **Backend Software Engineer and Agentic AI Developer** specialising in **P
 I'm open to collaborations, freelance backend and AI-agent work, and remote roles.<br/>
 **[alishakayani.ai@gmail.com](mailto:alishakayani.ai@gmail.com)** · **[Portfolio](https://alisha-kayaniai.vercel.app/)** · **[LinkedIn](https://www.linkedin.com/in/alisha-kayani/)**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F59E0B,45:0EA5E9,100:14B8A6&height=120&section=footer" width="100%"/>
+<img src="./assets/footer.svg" width="100%" alt=""/>
 
 </div>
