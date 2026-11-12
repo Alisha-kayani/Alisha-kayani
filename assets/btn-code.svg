@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="190" height="46" viewBox="0 0 190 46">
+<defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#334155"/><stop offset="1" stop-color="#475569"/></linearGradient></defs>
+<rect x="1" y="1" width="188" height="44" rx="23" fill="url(#b)"/>
+<text x="95.0" y="29" text-anchor="middle" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">{ }  View code</text></svg>
